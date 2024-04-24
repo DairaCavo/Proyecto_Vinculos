@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body id="pagina2">
+    <h1 class="cont_h1">Pagina de contacto</h1>
+    <ul class="lista">
+        <form action="formulario.html" method="GET">
+            <header>
+                <nav>
+                    <li><a href="formulario.html" class="boton1">Formulario</a></li>
+                    <li><a href="historia.html" class="boton2">Historia</a></li>
+                    <li><a href="productos.html" class="boton3">Productos</a></li>
+                    <li><a href="index.html" class="boton4">Index</a></li>
+            </header>
+            </nav>
+    </ul>
+    <label for="infopersonal">Completar informacion personal:</label>
+    <br>
+    <input type="text" name="nom" placeholder="Nombre">
+    <br>
+    <input type="text" name="ap" placeholder="Apellido">
+    <br>
+    <input type="text" name="DNI" placeholder="DNI">
+    <br>
+    <br>
+    <label for="localidad">Localidad de la costa:</label>
+    <br>
+    <select name="localidad" id="localidad">
+        <option value="sc">San Clemente</option>
+        <option value="lt">Las Toninas</option>
+        <option value="cc">Costa Chica</option>
+        <option value="st">Santa Teresita</option>
+        <option value="mdt">Mar del Tuyu</option>
+        <option value="cde">Costa del Este</option>
+        <option value="av">Aguas Verdes</option>
+        <option value="ldm">Lucila del Mar</option>
+        <option value="ca">Costa Azul</option>
+        <option value="sb">San Bernardo</option>
+        <option value="mda">Mar de Ajo</option>
+        <option value="at">Nueva Atlantis</option>
+    </select>
+    <br>
+    <br>
+    <label for="genero">Genero:</label>
+    <br>
+    <input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre
+    <input type="radio" name="sexo" value="nobina" checked="checked" /> No binario
+    <input type="radio" name="sexo" value="noreve" /> No revelar
+    <input type="radio" name="sexo" value="mujer" /> Mujer
+    <br>
+    <br>
+    <label for="zodiaco">Signo zodiacal:</label>
+    <br>
+    <select name="zodiaco" id="zodiaco">
+        <option value="ar">Aries</option>
+        <option value="ta">Tauro</option>
+        <option value="ge">Geminis</option>
+        <option value="ca">Cancer</option>
+        <option value="le">Leo</option>
+        <option value="vi">Virgo</option>
+        <option value="li">Libra</option>
+        <option value="es">Escorpio</option>
+        <option value="sa">Sagitario</option>
+        <option value="ca">Capricornio</option>
+        <option value="ac">Acuario</option>
+        <option value="pis">Piscis</option>
+    </select>
+    <br>
+    <br>
+    <label for="musica">Preferencia musical:</label>
+    <br>
+    <textarea id="texto" name="texto" rows="2" placeholder="Escribir..." cols="30"></textarea>
+    <br>
+    <input type="submit" value="Enviar">
+    </table>
+    </form>
+    <footer>
+        <p>Proyecto Cavo Daira 504 5to B Departamento de Programacion</p>
+    </footer>
+</body>
+
+</html>

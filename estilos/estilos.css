@@ -1,0 +1,184 @@
+body#pagina5 {
+    background-color: rgb(191, 248, 195);
+}
+
+body#pagina4 {
+    background-color: rgb(245, 163, 163);
+}
+
+body#pagina3 {
+    background-color: rgb(150, 157, 248);
+}
+
+ul,
+footer {
+    text-align: center;
+}
+
+
+body#pagina2 {
+    background-color: rgb(250, 211, 161);
+}
+
+body#pagina1 {
+    background-color: rgb(212, 161, 247);
+}
+
+.produ_h1 {
+    text-decoration: underline;
+    color: #4e793b;
+    text-align: center;
+    background-color: rgb(152, 238, 159);
+}
+
+.for_h1 {
+    text-decoration: underline;
+    color: #6b23af;
+    text-align: center;
+    background-color: rgb(196, 117, 233);
+}
+
+.for_gra {
+    text-align: center;
+}
+
+.his_h1 {
+    text-decoration: underline;
+    color: #210a86;
+    text-align: center;
+    background-color: rgb(48, 116, 121);
+}
+
+.ind_h1 {
+    text-decoration: underline;
+    color: #a70b18;
+    text-align: center;
+    background-color: rgb(248, 125, 125);
+}
+
+.cont_h1 {
+    text-decoration: underline;
+    color: #d4570f;
+    text-align: center;
+    background-color: rgb(233, 154, 90);
+}
+
+.boton3,
+.boton1,
+.boton2,
+.boton4 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f78d04;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton3:hover,
+.boton1:hover,
+.boton2:hover,
+.boton4:hover {
+    background-color: #502605;
+}
+
+.boton5,
+.boton6,
+.boton7,
+.boton8 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #60d182;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton5:hover,
+.boton6:hover,
+.boton7:hover,
+.boton8:hover {
+    background-color: #036e4b;
+}
+
+.boton9,
+.boton10,
+.boton11,
+.boton12 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f33838;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton9:hover,
+.boton10:hover,
+.boton12:hover,
+.boton11:hover {
+    background-color: #500505;
+}
+
+.boton13,
+.boton14,
+.boton15,
+.boton16 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #413eec;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton13:hover,
+.boton14:hover,
+.boton15:hover,
+.boton16:hover {
+    background-color: #130550;
+}
+
+.boton17,
+.boton18,
+.boton20,
+.boton19 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c632e4;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton19:hover,
+.boton17:hover,
+.boton20:hover,
+.boton18:hover {
+    background-color: #4b0445;
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista li {
+    display: inline;
+    margin-right: 50px;
+}
